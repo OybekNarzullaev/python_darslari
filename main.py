@@ -1,11 +1,14 @@
-# loop lar (takrorlabuvchilar)
-# else ni while da qo'llanilishi
+# for loop haqida
 
-i = 0
-while i <= 5:
-    i += 1
+# while yordamida satr elementlarini chiqarish
+ism = 'Oybek'
+
+index = 0
+
+while index < len(ism):
+    print(ism[index])
+    index += 1
+
+# for da bajarilishi
+for i in ism:
     print(i)
-else:
-    print(f"i ning oxirgi qiymati -> {i}")
-
-
